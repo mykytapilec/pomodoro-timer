@@ -1,0 +1,55 @@
+.timer {
+  width: min(100%, 32rem);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.timer h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.timer__session {
+  margin: 1.5rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.timer__display {
+  margin: 1rem 0;
+  font-size: clamp(4rem, 18vw, 7rem);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.timer__controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.timer__controls button {
+  min-width: 7rem;
+  min-height: 2.75rem;
+  padding: 0.625rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.timer__controls button:hover {
+  background: #f1f5f9;
+}
+
+.timer__controls button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+.timer__sessions {
+  margin: 1.5rem 0 0;
+}
